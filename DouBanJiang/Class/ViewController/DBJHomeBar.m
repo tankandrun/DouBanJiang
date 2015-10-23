@@ -38,6 +38,30 @@
     
     [self addSubview:topView];
     
+    //添加搜索框
+    UITextField *searchField = [[UITextField alloc]init];
+    searchField.layer.cornerRadius = 5;
+    searchField.attributedPlaceholder = [[NSAttributedString alloc]initWithString:@"兴趣 影视 图书 唱片 游戏 活动 用户" attributes:@{NSForegroundColorAttributeName:DBJColor(213, 213, 213)}];
+    searchField.backgroundColor = [UIColor whiteColor];
+    searchField.layer.sublayerTransform = CATransform3DMakeTranslation(5, 0, 0);
+    
+    BLKFlexibleHeightBarSubviewLayoutAttributes *initalSearchField = [[BLKFlexibleHeightBarSubviewLayoutAttributes alloc]init];
+    initalSearchField.frame = CGRectMake(8.0, 25.0, initialTopBar.size.width*0.85, initialTopBar.size.height-8.0);
+    initalSearchField.zIndex = 1024;
+    [searchField addLayoutAttributes:initalSearchField forProgress:0.0];
+    [searchField addLayoutAttributes:initalSearchField forProgress:40.0/(105.0-20.0)];
+    
+    BLKFlexibleHeightBarSubviewLayoutAttributes *finalSearchField = [[BLKFlexibleHeightBarSubviewLayoutAttributes alloc]initWithExistingLayoutAttributes:initalSearchField];
+    finalSearchField.transform = CGAffineTransformMakeTranslation(0.0, -0.3*(105.0-20.0));
+    finalSearchField.alpha = 0.0;
+    [searchField addLayoutAttributes:finalSearchField forProgress:0.8];
+    [searchField addLayoutAttributes:finalSearchField forProgress:1.0];
+    
+    [self addSubview:searchField];
+                                                                  
+    
+    
+    
     
 }
 

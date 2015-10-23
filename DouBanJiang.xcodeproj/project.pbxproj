@@ -67,8 +67,8 @@
 		4EB064081BD7D0B8005E8BFA /* DBJThirdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJThirdCell.h; sourceTree = "<group>"; };
 		4EB064091BD7D0B8005E8BFA /* DBJThirdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJThirdCell.m; sourceTree = "<group>"; };
 		4EB0640A1BD7D0B8005E8BFA /* DBJThirdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DBJThirdCell.xib; sourceTree = "<group>"; };
-		4EF5B8851BD91AFF00B2C444 /* DBJHomeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJHomeBar.h; sourceTree = "<group>"; };
-		4EF5B8861BD91AFF00B2C444 /* DBJHomeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJHomeBar.m; sourceTree = "<group>"; };
+		4EF5B8851BD91AFF00B2C444 /* DBJHomeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBJHomeBar.h; path = DouBanJiang/Class/ViewController/DBJHomeBar.h; sourceTree = SOURCE_ROOT; };
+		4EF5B8861BD91AFF00B2C444 /* DBJHomeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBJHomeBar.m; path = DouBanJiang/Class/ViewController/DBJHomeBar.m; sourceTree = SOURCE_ROOT; };
 		4EF5B88C1BD91C5F00B2C444 /* BLKDelegateSplitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKDelegateSplitter.h; sourceTree = "<group>"; };
 		4EF5B88D1BD91C5F00B2C444 /* BLKDelegateSplitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLKDelegateSplitter.m; sourceTree = "<group>"; };
 		4EF5B88E1BD91C5F00B2C444 /* BLKFlexibleHeightBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLKFlexibleHeightBar.h; sourceTree = "<group>"; };
@@ -292,6 +292,8 @@
 		A947DF291BD52F5F00BAAA90 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4EF5B8851BD91AFF00B2C444 /* DBJHomeBar.h */,
+				4EF5B8861BD91AFF00B2C444 /* DBJHomeBar.m */,
 				4EB063FE1BD7B09B005E8BFA /* DBJScrollCell.h */,
 				4EB063FF1BD7B09B005E8BFA /* DBJScrollCell.m */,
 				4EB064031BD7BF55005E8BFA /* DBJSecondCell.h */,
@@ -313,8 +315,6 @@
 				A947DF331BD5354200BAAA90 /* DBJTabBarController.m */,
 				4EF6F2A91BD72CD1007F8633 /* DBJHomeController.h */,
 				4EF6F2AA1BD72CD1007F8633 /* DBJHomeController.m */,
-				4EF5B8851BD91AFF00B2C444 /* DBJHomeBar.h */,
-				4EF5B8861BD91AFF00B2C444 /* DBJHomeBar.m */,
 				4EB063FB1BD7A942005E8BFA /* DBJFaXianController.h */,
 				4EB063FC1BD7A942005E8BFA /* DBJFaXianController.m */,
 				A947DF2F1BD5306400BAAA90 /* DBJWoDeViewController.h */,
